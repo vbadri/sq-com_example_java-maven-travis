@@ -32,7 +32,7 @@ addons:
   sonarcloud:
     organization: "vbadri"
     token:
-      secure: "9166c31f1b7a2b8661a65b03b9e0c99e3f7cb3a4" # encrypted value of your token
+      secure: "travis encrypt 7d71d59ce859b6403db8cd7b087af9f81ec6142c" # encrypted value of your token
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
